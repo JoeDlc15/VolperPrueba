@@ -1,0 +1,8 @@
+
+{
+  "name": "Volper Seal Industrial",
+  "description": "Una plataforma integral para la gestión y cotización de componentes industriales, empaquetaduras y conexiones de alta precisión.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
