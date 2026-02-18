@@ -57,6 +57,28 @@ export const PRODUCTS: Product[] = [
     id: '5',
     sku: 'MITS08',
     ref: '005',
+    name: 'Tuerca unión Cañería',
+    description: 'Empaquetadura de 8 huecos para reguladores Mitsubishi R900.',
+    category: 'Bronce',
+    brand: 'Mitsubishi',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416772/Tuerca_golpwg.png',
+    stock: 'In Stock'
+  },
+  {
+    id: '6',
+    sku: 'MITS08',
+    ref: '006',
+    name: 'Tuerca unión Cañería MM',
+    description: 'Empaquetadura de 8 huecos para reguladores Mitsubishi R900.',
+    category: 'Bronce',
+    brand: 'Mitsubishi',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771417262/TuercaMilimetrico_odwxiq.png',
+    stock: 'In Stock'
+  },
+  {
+    id: '7',
+    sku: 'MITS08',
+    ref: '007',
     name: 'Guía o Clavija',
     description: 'Empaquetadura de 8 huecos para reguladores Mitsubishi R900.',
     category: 'Bronce',
@@ -65,9 +87,9 @@ export const PRODUCTS: Product[] = [
     stock: 'In Stock'
   },
   {
-    id: '6',
+    id: '8',
     sku: 'T2B01',
-    ref: '006',
+    ref: '008',
     name: 'Guía o Clavija Milimetrica',
     description: 'Repuesto original para motores Toyota serie 2B.',
     category: 'Bronce',
@@ -76,14 +98,86 @@ export const PRODUCTS: Product[] = [
     stock: 'In Stock'
   },
   {
-    id: '7',
+    id: '9',
     sku: 'BU-3000-038',
-    ref: 'F01',
-    name: 'Unión de Bronce Clase 3000',
+    ref: '009',
+    name: 'Conector Recto NPT (Armado)',
     description: 'Conexión de bronce de alta presión para aplicaciones industriales críticas.',
-    category: 'Fittings',
+    category: 'Bronce',
     brand: 'Volper',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDWJQd3mdOZquoyWsvOgzhHMvCgDzKtE-acpAczdxfc8tQXMJBsU-K6zofFAGt9DaefN9sSF-TZ3YDjlfor2W8LBq5A_nOYSDDega3dt8GFl1mZEpvYnbpdvDJMSG0Y5BOuwKZ4fh7Y4rpqY6T8TrqViWQI3pvPNPxCo1irKsj2wE0xu8QPrOEHtRWnW1B6Gwgm2Ikef2rhgqSkfh_p67u23CN1a1q80Izu4TOxJ_ByQXCvPO9mws1t10uSqi5UmuFKUYZGAo4oVBA',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416738/Conector_Recto_aihece.png',
+    stock: 'In Stock',
+    material: 'Bronce C95400',
+    specs: {
+      'Presión': '3000 PSI',
+      'Rosca': 'NPT',
+      'Medida': '3/8"'
+    }
+  }
+  ,
+  {
+    id: '10',
+    sku: 'BU-3000-038',
+    ref: '010',
+    name: 'Conector Recto MM (Armado)',
+    description: 'Conexión de bronce de alta presión para aplicaciones industriales críticas.',
+    category: 'Bronce',
+    brand: 'Volper',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416727/Conector_Milimetrico_hyxs1g.png',
+    stock: 'In Stock',
+    material: 'Bronce C95400',
+    specs: {
+      'Presión': '3000 PSI',
+      'Rosca': 'NPT',
+      'Medida': '3/8"'
+    }
+  }
+  ,
+  {
+    id: '11',
+    sku: 'BU-3000-038',
+    ref: '011',
+    name: 'Conector Hembra (Armado)',
+    description: 'Conexión de bronce de alta presión para aplicaciones industriales críticas.',
+    category: 'Bronce',
+    brand: 'Volper',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416747/ConectorHembra_u7ylye.png',
+    stock: 'In Stock',
+    material: 'Bronce C95400',
+    specs: {
+      'Presión': '3000 PSI',
+      'Rosca': 'NPT',
+      'Medida': '3/8"'
+    }
+  }
+  ,
+  {
+    id: '12',
+    sku: 'BU-3000-038',
+    ref: '012',
+    name: 'Acoplamiento Macho',
+    description: 'Conexión de bronce de alta presión para aplicaciones industriales críticas.',
+    category: 'Bronce',
+    brand: 'Volper',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416726/AcoplamientoMacho_bojdec.png',
+    stock: 'In Stock',
+    material: 'Bronce C95400',
+    specs: {
+      'Presión': '3000 PSI',
+      'Rosca': 'NPT',
+      'Medida': '3/8"'
+    }
+  }
+  ,
+  {
+    id: '13',
+    sku: 'BU-3000-038',
+    ref: '013',
+    name: 'Acoplamiento Hembra',
+    description: 'Conexión de bronce de alta presión para aplicaciones industriales críticas.',
+    category: 'Bronce',
+    brand: 'Volper',
+    image: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416726/AcoplamientoHembra_xgq4vb.png',
     stock: 'In Stock',
     material: 'Bronce C95400',
     specs: {

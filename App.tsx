@@ -167,7 +167,7 @@ const HomePage: React.FC<{ onNavigate: (page: Page) => void }> = ({ onNavigate }
             {[
               { title: 'Conexiones de Bronce', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771414198/ConexionesBronce_sd33p1.jpg' },
               { title: 'Arandelas de Aluminio', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771414368/Arandelas_Aluminio_g8zobd.jpg' },
-              { title: 'Empaquetaduras Industriales', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771414456/Empaquetaduras_fsgole.jpg' },
+              { title: 'Empaquetaduras Industriales', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771416310/Empaquetaduras_bt6jvp.jpg' },
             ].map((cat, i) => (
               <div key={i} className="group relative overflow-hidden rounded-xl h-64 shadow-lg cursor-pointer" onClick={() => onNavigate(Page.Catalog)}>
                 <img src={cat.img} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-70 group-hover:opacity-100" />
