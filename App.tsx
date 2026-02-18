@@ -165,9 +165,9 @@ const HomePage: React.FC<{ onNavigate: (page: Page) => void }> = ({ onNavigate }
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: 'Conexiones de Bronce', img: 'https://picsum.photos/seed/bronz/600/400' },
-              { title: 'Arandelas de Aluminio', img: 'https://picsum.photos/seed/alum/600/400' },
-              { title: 'Empaquetaduras Industriales', img: 'https://picsum.photos/seed/gask/600/400' },
+              { title: 'Conexiones de Bronce', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771414198/ConexionesBronce_sd33p1.jpg' },
+              { title: 'Arandelas de Aluminio', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771414368/Arandelas_Aluminio_g8zobd.jpg' },
+              { title: 'Empaquetaduras Industriales', img: 'https://res.cloudinary.com/dpn43zprq/image/upload/v1771414456/Empaquetaduras_fsgole.jpg' },
             ].map((cat, i) => (
               <div key={i} className="group relative overflow-hidden rounded-xl h-64 shadow-lg cursor-pointer" onClick={() => onNavigate(Page.Catalog)}>
                 <img src={cat.img} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-70 group-hover:opacity-100" />
